@@ -1,0 +1,47 @@
+/*utilities*/
+
+*{
+    margin:0;
+    padding:0;
+  
+}
+
+.row{
+    padding-left: 2px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+/*header*/
+nav{
+    display: flex;
+    justify-content: center;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    height: 100px;
+}
+
+
+/*search bar*/
+.search{
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 1px;
+    font-size: 32px;
+    margin-left: 25px; /*this moves both columns left to be flush with page*/
+    
+}
+
+.selection{
+    justify-content: flex-end;
+
+
+}
+
+.itemfont{
+    font-weight: 100;
+}

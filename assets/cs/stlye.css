@@ -1,10 +1,5 @@
 /*utilities*/
 
-*{
-    margin:0;
-    padding:0;
-  
-}
 
 .row{
     padding-left: 2px;
@@ -13,6 +8,7 @@
 
 .flex{
     display: flex;
+    width: 100%;
 }
 
 /*header*/
@@ -44,4 +40,89 @@ nav{
 
 .itemfont{
     font-weight: 100;
+    width: 400px;
+    margin-right: 50px;
+}
+
+.uifont{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.uibox{
+    width: 100%;
+    margin-top: 25px;
+    height: 380px;
+   
+}
+
+.uibox h5{
+    font-size:32px;
+}
+
+.ui{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.width{
+    width: 100%;
+}
+
+.dayforecast{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.forecast{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+}
+
+.cast{
+    display: flex;
+    width:100%;
+    
+}
+
+.uvbox{/*small box next to UV index */
+    height: 35px;
+    width: 40px;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    padding-left: 10px;
+    border-radius: 7px;
+    font-weight: bold;
+
+}
+
+.uvflex{
+display: flex;
+
+}
+
+.uvtext{
+    width: 15%;
+    margin-right: 1px;
+    font-weight: 100;
+    padding-right: 5px;
+}
+
+.forecastcards{
+    width: 175px;
+    height: 160px
+}
+
+.card-date{
+    font-weight: bold;
+}
+
+.cast-text{
+    font-weight: 100;
+    font-size: 24px ;
 }

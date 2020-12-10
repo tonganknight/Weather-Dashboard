@@ -27,7 +27,6 @@
 
                     <form class="form-inline">
                         <div class="form-group mb-2">
-                        <label for="searchbar" class="sr-only">Search for a City</label>
                         <input type="text" readonly class="form-control-plaintext font-weight-bold search " id="searchbar" value="Search for a City:">
                         </div>
                         <div class="form-group mx-sm-3 mb-2">
@@ -38,25 +37,113 @@
                     </form>
                   
                     <ul class="list-group itemfont">
-                        <li class="list-group-item">Cras justo odio</li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Morbi leo risus</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
+                        <li class="list-group-item">Austin</li>
+                        <li class="list-group-item">Chicago</li>
+                        <li class="list-group-item">New York</li>
+                        <li class="list-group-item">Orlando</li>
+                        <li class="list-group-item">San Francisco</li>
+                        <li class="list-group-item">Atlanta</li>
+                        <li class="list-group-item">Florida</li>
+                        <li class="list-group-item">Seattle</li>
                       </ul>
                      
                 </div>
 
         
-                <div class="col col-sm-8 flex selection" >
-                    placeholder 
+                <div class="col col-sm-12 ">
+                    
+                    <div class=" col col-sm-8 card uibox " >
+                        <div class="card-body">
+
+                          <h5 class="card-title ">City & Date</h5>
+
+                          <div class="flex ui uifont">
+                                <p id="temperature" class="card-text itemfont ">Temperature:<span id="temp">109</span></p>
+                                <br>
+                                <p id="humidity" class="card-text itemfont">Humidity:<span id="wet">25%</span></p>
+                                <br>
+                                <p id="wind-speed" class="card-text itemfont">Wind Speed:<span id="speed">25</span></p>
+                                <br>
+                                <div class="uvflex">
+                                    <p id="uvindex" class="card-text uvtext">UV Index:</p>
+                                    <div class="uvbox">4</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                    <div class="dayforecast"> 
+                        <h2>5-Day Forecast</h2>
+
+                            
+
+                                <div class="forecast">
+
+                                    <div class="card bg-primary">
+                                        <h5 class="card-date">DATE 9/1/1990</h5>
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body forecastcards">
+                                            <br>
+                                          <p class="cast-text">Temp:<span id="day1temp">47</span> </p>
+                                          <p class="cast-text">Humidity::<span id="day1hum">22%</span> </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-primary">
+                                        <h5 class="card-date day2">DATE 9/1/1990</h5>
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body forecastcards">
+                                            <br>
+                                        <p class="cast-text">Temp:<span id="day2temp">47</span> </p>
+                                        <p class="cast-text">Humidity:<span id="day2hum">22%</span> </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-primary">
+                                        <h5 class="card-date day3">DATE 9/1/1990</h5>
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body forecastcards">
+                                            <br>
+                                        <p class="cast-text">Temp:<span id="day3temp">47</span> </p>
+                                        <p class="cast-text">Humidity:<span id="day3hum">22%</span> </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-primary">
+                                        <h5 class="card-date day4">DATE 9/1/1990</h5>
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body forecastcards">
+                                            <br>
+                                        <p class="cast-text">Temp:<span id="day4temp">47</span> </p>
+                                        <p class="cast-text">Humidity:<span id="day4hum">22%</span> </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="card bg-primary">
+                                        <h5 class="card-date day5">DATE 9/1/1990</h5>
+                                        <img src="..." class="card-img-top" alt="...">
+                                        <div class="card-body forecastcards">
+                                            <br>
+                                        <p class="cast-text">Temp:<span id="day5temp">47</span> </p>
+                                        <p class="cast-text">Humidity:<span id="day5hum">22%</span> </p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                           
+
+                        
+
+                    </div>
+
+
+
 
                 </div>
-
-
 
         </div>  
     

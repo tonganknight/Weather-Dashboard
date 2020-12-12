@@ -66,6 +66,11 @@ flex-direction: column;
 justify-content: space-around;
 }
 
+.topui{
+    display:flex;
+
+}
+
 .width{
     width: 100%;
 }
@@ -98,6 +103,7 @@ justify-content: space-around;
     padding-left: 10px;
     border-radius: 7px;
     font-weight: bold;
+    display: none;
 
 }
 
@@ -125,4 +131,28 @@ display: flex;
 .cast-text{
     font-weight: 100;
     font-size: 24px ;
+}
+
+.searchbar{
+    display:flex;
+    width:65%;
+    height: 50px;
+}
+
+
+
+.weathericon{
+    display: none;
+    height: 50px;
+    width: 50px;
+    background-image: url("http://openweathermap.org/img/wn/01d@2x.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.forecasticon{
+ display:flex;
+ justify-content: center;
+
 }

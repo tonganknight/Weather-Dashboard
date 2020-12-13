@@ -68,7 +68,7 @@ function searchvalue(){
             //display ui icon
             var icon=data.weather[0]
             var iconnow =icon.icon  
-            var iconlink = ("http://openweathermap.org/img/wn/" + iconnow +"@2x.png")
+            var iconlink = ("https://openweathermap.org/img/wn/" + iconnow +"@2x.png")
             document.getElementById("icon").style.display ="block"
             document.getElementById("icon").style.backgroundImage = "url(" + iconlink +")"
             
@@ -78,7 +78,7 @@ function searchvalue(){
 
 
             //request UV index Data 
-            var apiUrl2 = "http://api.openweathermap.org/data/2.5/uvi?lat=" + lat +"&lon="+lon+"&appid=43ef190af294b1e96143aa8fe5347765"
+            var apiUrl2 = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat +"&lon="+lon+"&appid=43ef190af294b1e96143aa8fe5347765"
 
             fetch(apiUrl2).then(function(response){
                 if (response.ok) {
@@ -125,7 +125,7 @@ function searchvalue(){
             })
 
             //fetch 5 day forecast 
-            var apiUrl3 = "http://api.openweathermap.org/data/2.5/forecast?q=" + search +"&units=imperial" + "&appid=43ef190af294b1e96143aa8fe5347765"
+            var apiUrl3 = "https://api.openweathermap.org/data/2.5/forecast?q=" + search +"&units=imperial" + "&appid=43ef190af294b1e96143aa8fe5347765"
 
             fetch(apiUrl3).then(function(response){ 
                 if (response.ok) {
@@ -171,11 +171,11 @@ function searchvalue(){
                 date4temp = Math.floor(date4temp)
                 date5temp = Math.floor(date5temp)
 
-                var day1iconlink = ("http://openweathermap.org/img/wn/" + date1icon +"@2x.png")
-                var day2iconlink = ("http://openweathermap.org/img/wn/" + date2icon +"@2x.png")
-                var day3iconlink = ("http://openweathermap.org/img/wn/" + date3icon +"@2x.png")
-                var day4iconlink = ("http://openweathermap.org/img/wn/" + date4icon +"@2x.png")
-                var day5iconlink = ("http://openweathermap.org/img/wn/" + date5icon +"@2x.png")
+                var day1iconlink = ("https://openweathermap.org/img/wn/" + date1icon +"@2x.png")
+                var day2iconlink = ("https://openweathermap.org/img/wn/" + date2icon +"@2x.png")
+                var day3iconlink = ("https://openweathermap.org/img/wn/" + date3icon +"@2x.png")
+                var day4iconlink = ("https://openweathermap.org/img/wn/" + date4icon +"@2x.png")
+                var day5iconlink = ("https://openweathermap.org/img/wn/" + date5icon +"@2x.png")
                 //write data 
                 //day1
                 document.getElementById("day1").textContent = date1
@@ -303,7 +303,7 @@ function searchvalue(){
             //display ui icon
             var icon=data.weather[0]
             var iconnow =icon.icon  
-            var iconlink = ("http://openweathermap.org/img/wn/" + iconnow +"@2x.png")
+            var iconlink = ("https://openweathermap.org/img/wn/" + iconnow +"@2x.png")
             document.getElementById("icon").style.display ="block"
            document.getElementById("icon").style.backgroundImage = "url(" + iconlink +")"
             
@@ -311,7 +311,7 @@ function searchvalue(){
 
 
             //request UV index Data 
-            var apiUrl2 = "http://api.openweathermap.org/data/2.5/uvi?lat=" + lat +"&lon="+lon+"&appid=43ef190af294b1e96143aa8fe5347765"
+            var apiUrl2 = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat +"&lon="+lon+"&appid=43ef190af294b1e96143aa8fe5347765"
 
             fetch(apiUrl2).then(function(response){
                 if (response.ok) {
@@ -354,7 +354,7 @@ function searchvalue(){
             })
 
             //fetch 5 day forecast 
-            var apiUrl3 = "http://api.openweathermap.org/data/2.5/forecast?q=" + search +"&units=imperial" + "&appid=43ef190af294b1e96143aa8fe5347765"
+            var apiUrl3 = "https://api.openweathermap.org/data/2.5/forecast?q=" + search +"&units=imperial" + "&appid=43ef190af294b1e96143aa8fe5347765"
 
             fetch(apiUrl3).then(function(response){ 
                 if (response.ok) {
@@ -400,11 +400,11 @@ function searchvalue(){
                 date4temp = Math.floor(date4temp)
                 date5temp = Math.floor(date5temp)
 
-                var day1iconlink = ("http://openweathermap.org/img/wn/" + date1icon +"@2x.png")
-                var day2iconlink = ("http://openweathermap.org/img/wn/" + date2icon +"@2x.png")
-                var day3iconlink = ("http://openweathermap.org/img/wn/" + date3icon +"@2x.png")
-                var day4iconlink = ("http://openweathermap.org/img/wn/" + date4icon +"@2x.png")
-                var day5iconlink = ("http://openweathermap.org/img/wn/" + date5icon +"@2x.png")
+                var day1iconlink = ("https://openweathermap.org/img/wn/" + date1icon +"@2x.png")
+                var day2iconlink = ("https://openweathermap.org/img/wn/" + date2icon +"@2x.png")
+                var day3iconlink = ("https://openweathermap.org/img/wn/" + date3icon +"@2x.png")
+                var day4iconlink = ("https://openweathermap.org/img/wn/" + date4icon +"@2x.png")
+                var day5iconlink = ("https://openweathermap.org/img/wn/" + date5icon +"@2x.png")
                 //write data 
                 //day1
                 document.getElementById("day1").textContent = date1
@@ -541,11 +541,11 @@ function searchvalue(){
      var date5icon = window.localStorage.getItem("date5icon");
 
      //iconlinks
-     var day1iconlink = ("http://openweathermap.org/img/wn/" + date1icon +"@2x.png")
-     var day2iconlink = ("http://openweathermap.org/img/wn/" + date2icon +"@2x.png")
-     var day3iconlink = ("http://openweathermap.org/img/wn/" + date3icon +"@2x.png")
-     var day4iconlink = ("http://openweathermap.org/img/wn/" + date4icon +"@2x.png")
-     var day5iconlink = ("http://openweathermap.org/img/wn/" + date5icon +"@2x.png")
+     var day1iconlink = ("https://openweathermap.org/img/wn/" + date1icon +"@2x.png")
+     var day2iconlink = ("https://openweathermap.org/img/wn/" + date2icon +"@2x.png")
+     var day3iconlink = ("https://openweathermap.org/img/wn/" + date3icon +"@2x.png")
+     var day4iconlink = ("https://openweathermap.org/img/wn/" + date4icon +"@2x.png")
+     var day5iconlink = ("https://openweathermap.org/img/wn/" + date5icon +"@2x.png")
 
      document.getElementById("day1").textContent = date1
      document.getElementById("day1temp").textContent = date1temp

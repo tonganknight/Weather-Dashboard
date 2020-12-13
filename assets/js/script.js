@@ -478,7 +478,7 @@ function searchvalue(){
     var iconlink = window.localStorage.getItem("iconlink");
     var uv = window.localStorage.getItem("uv");
 
-    console.log(iconlink)
+    
 
     //write data 
     document.getElementById("cityname").textContent = date
@@ -583,7 +583,7 @@ function searchvalue(){
 
      //write items from list
      var callback = JSON.parse(localStorage.getItem("items"));
-     console.log(callback)
+     
      
      //loop to construct list items 
     for(i=0; i < callback.length; i++ ){

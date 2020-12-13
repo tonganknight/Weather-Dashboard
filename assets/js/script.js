@@ -584,6 +584,20 @@ function searchvalue(){
      //write items from list
      var callback = JSON.parse(localStorage.getItem("items"));
      console.log(callback)
+     
+     //loop to construct list items 
+    for(i=0; i < callback.length; i++ ){
+       
+         var entryLi = document.createElement("li")
+         entryLi.textContent = callback[i];
+         entryLi.setAttribute("class", "list-group-item");
+         entryLi.setAttribute("data", callback[i]);
+         document.getElementById("history").appendChild(entryLi);
+
+
+    }
+
+
 
  }    
  

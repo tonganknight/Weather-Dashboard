@@ -166,3 +166,9 @@ display: flex;
  justify-content: center;
 
 }
+
+ul:hover li:hover{
+    background-color: lightblue;
+   
+
+}

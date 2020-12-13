@@ -32,6 +32,15 @@ nav{
     
 }
 
+.searchbycity{
+    height:10px;
+}
+
+.c1{
+    height:1px;
+}
+
+
 .selection{
     justify-content: flex-end;
 
@@ -53,6 +62,7 @@ nav{
     width: 100%;
     margin-top: 25px;
     height: 380px;
+    color:white
    
 }
 
@@ -145,7 +155,7 @@ display: flex;
     display: none;
     height: 50px;
     width: 50px;
-    background-image: url("http://openweathermap.org/img/wn/01d@2x.png");
+    background-image: url("http://openweathermap.org/img/wn/03n@2x.png");
     background-size: cover;
     background-position: center;
     

@@ -311,7 +311,7 @@ function searchvalue(){
 
 
             //request UV index Data 
-            var apiUrl2 = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat +"&lon="+lon+"&appid=43ef190af294b1e96143aa8fe5347765"
+            var apiUrl2 = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat +"&lon="+lon+"&appid=" +"43ef190af294b1e96143aa8fe5347765"
 
             fetch(apiUrl2).then(function(response){
                 if (response.ok) {
@@ -354,7 +354,7 @@ function searchvalue(){
             })
 
             //fetch 5 day forecast 
-            var apiUrl3 = "https://api.openweathermap.org/data/2.5/forecast?q=" + search +"&units=imperial" + "&appid=43ef190af294b1e96143aa8fe5347765"
+            var apiUrl3 = "https://api.openweathermap.org/data/2.5/forecast?q=" + search +"&units=imperial" + "&appid=" +"43ef190af294b1e96143aa8fe5347765"
 
             fetch(apiUrl3).then(function(response){ 
                 if (response.ok) {
